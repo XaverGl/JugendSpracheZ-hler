@@ -1,0 +1,6 @@
+@JugendSpracheAPI_HostAddress = http://localhost:5100
+
+GET {{JugendSpracheAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

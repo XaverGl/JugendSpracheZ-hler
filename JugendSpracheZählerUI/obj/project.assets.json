@@ -8,24 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\xaver\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\xaver.glasow\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xaver\\source\\repos\\JugendSpracheZ-hler\\JugendSpracheZählerUI\\JugendSpracheZählerUI.csproj",
+      "projectUniqueName": "C:\\Users\\xaver.glasow\\source\\repos\\JugendSpracheZ-hler\\JugendSpracheZählerUI\\JugendSpracheZählerUI.csproj",
       "projectName": "JugendSpracheZählerUI",
-      "projectPath": "C:\\Users\\xaver\\source\\repos\\JugendSpracheZ-hler\\JugendSpracheZählerUI\\JugendSpracheZählerUI.csproj",
-      "packagesPath": "C:\\Users\\xaver\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xaver\\source\\repos\\JugendSpracheZ-hler\\JugendSpracheZählerUI\\obj\\",
+      "projectPath": "C:\\Users\\xaver.glasow\\source\\repos\\JugendSpracheZ-hler\\JugendSpracheZählerUI\\JugendSpracheZählerUI.csproj",
+      "packagesPath": "C:\\Users\\xaver.glasow\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\xaver.glasow\\source\\repos\\JugendSpracheZ-hler\\JugendSpracheZählerUI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\xaver\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\xaver.glasow\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
