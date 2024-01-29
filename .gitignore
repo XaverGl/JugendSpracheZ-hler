@@ -4,3 +4,6 @@
 
 /.vs
 /JugendSpracheZählerUI/.vs/JugendSpracheZählerUI
+/JugendSpracheAPI/obj
+/.gitignore
+/.gitignore
