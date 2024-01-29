@@ -102,9 +102,9 @@
             // SaveAndLoadIntoAFile_Button
             // 
             SaveAndLoadIntoAFile_Button.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SaveAndLoadIntoAFile_Button.Location = new Point(184, 274);
+            SaveAndLoadIntoAFile_Button.Location = new Point(175, 274);
             SaveAndLoadIntoAFile_Button.Name = "SaveAndLoadIntoAFile_Button";
-            SaveAndLoadIntoAFile_Button.Size = new Size(178, 26);
+            SaveAndLoadIntoAFile_Button.Size = new Size(197, 26);
             SaveAndLoadIntoAFile_Button.TabIndex = 6;
             SaveAndLoadIntoAFile_Button.Text = "x";
             SaveAndLoadIntoAFile_Button.UseVisualStyleBackColor = true;
