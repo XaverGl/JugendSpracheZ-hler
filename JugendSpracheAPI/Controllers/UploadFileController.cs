@@ -6,5 +6,10 @@ namespace JugendSpracheAPI.Controllers
     [ApiController]
     public class UploadFileController : ControllerBase
     {
+        [HttpPost("uploadDataInFile")]
+        public IActionResult UploadDataInFile(int number, DateTime DateAndTimeOfEntry) 
+        {
+            throw new NotImplementedException();
+        }
     }
 }
