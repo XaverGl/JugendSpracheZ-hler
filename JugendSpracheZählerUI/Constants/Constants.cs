@@ -8,5 +8,6 @@
         public const string FormatWithText = "Format: dd/MM/yyyy";
         public const string Settings = "Settings";
         public const string LocalPathText = "Local Path:";
+        public const string CostumizeButtons = "Costumize Buttons";
     }
 }

@@ -35,6 +35,7 @@
             StartDate_Label = new Label();
             EndDateOfWeek_Label = new Label();
             EndDate_TextBox = new TextBox();
+            GetFileWithData_Button = new Button();
             SuspendLayout();
             // 
             // CloseOutputDataWindow_Button
@@ -54,6 +55,7 @@
             // 
             SpecificTime_RadioButton.AutoSize = true;
             SpecificTime_RadioButton.Checked = true;
+            SpecificTime_RadioButton.ForeColor = Color.White;
             SpecificTime_RadioButton.Location = new Point(12, 12);
             SpecificTime_RadioButton.Name = "SpecificTime_RadioButton";
             SpecificTime_RadioButton.Size = new Size(130, 19);
@@ -66,6 +68,7 @@
             // OnlyOneDay_RadioButton
             // 
             OnlyOneDay_RadioButton.AutoSize = true;
+            OnlyOneDay_RadioButton.ForeColor = Color.White;
             OnlyOneDay_RadioButton.Location = new Point(148, 12);
             OnlyOneDay_RadioButton.Name = "OnlyOneDay_RadioButton";
             OnlyOneDay_RadioButton.Size = new Size(130, 19);
@@ -85,6 +88,7 @@
             // 
             StartDate_Label.AutoSize = true;
             StartDate_Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            StartDate_Label.ForeColor = Color.White;
             StartDate_Label.Location = new Point(12, 63);
             StartDate_Label.Name = "StartDate_Label";
             StartDate_Label.Size = new Size(17, 21);
@@ -95,6 +99,7 @@
             // 
             EndDateOfWeek_Label.AutoSize = true;
             EndDateOfWeek_Label.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            EndDateOfWeek_Label.ForeColor = Color.White;
             EndDateOfWeek_Label.Location = new Point(12, 110);
             EndDateOfWeek_Label.Name = "EndDateOfWeek_Label";
             EndDateOfWeek_Label.Size = new Size(17, 21);
@@ -109,12 +114,22 @@
             EndDate_TextBox.Size = new Size(151, 25);
             EndDate_TextBox.TabIndex = 11;
             // 
+            // GetFileWithData_Button
+            // 
+            GetFileWithData_Button.Location = new Point(185, 179);
+            GetFileWithData_Button.Name = "GetFileWithData_Button";
+            GetFileWithData_Button.Size = new Size(109, 23);
+            GetFileWithData_Button.TabIndex = 12;
+            GetFileWithData_Button.Text = "GetFileWithData";
+            GetFileWithData_Button.UseVisualStyleBackColor = true;
+            // 
             // OutputDataInSpecificFormat
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             ClientSize = new Size(515, 273);
+            Controls.Add(GetFileWithData_Button);
             Controls.Add(EndDate_TextBox);
             Controls.Add(EndDateOfWeek_Label);
             Controls.Add(StartDate_Label);
@@ -139,5 +154,6 @@
         private Label StartDate_Label;
         private Label EndDateOfWeek_Label;
         private TextBox EndDate_TextBox;
+        private Button GetFileWithData_Button;
     }
 }
