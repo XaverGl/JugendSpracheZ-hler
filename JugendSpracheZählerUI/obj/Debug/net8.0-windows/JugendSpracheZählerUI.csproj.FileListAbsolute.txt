@@ -34,3 +34,4 @@ C:\Users\xaver.glasow\source\repos\JugendSpracheZ-hler\JugendSpracheZählerUI\ob
 C:\Users\xaver.glasow\source\repos\JugendSpracheZ-hler\JugendSpracheZählerUI\obj\Debug\net8.0-windows\JugendSpracheZählerUI.pdb
 C:\Users\xaver.glasow\source\repos\JugendSpracheZ-hler\JugendSpracheZählerUI\obj\Debug\net8.0-windows\JugendSpracheZählerUI.genruntimeconfig.cache
 C:\Users\xaver.glasow\source\repos\JugendSpracheZ-hler\JugendSpracheZählerUI\obj\Debug\net8.0-windows\ref\JugendSpracheZählerUI.dll
+C:\Users\xaver.glasow\source\repos\JugendSpracheZ-hler\JugendSpracheZählerUI\obj\Debug\net8.0-windows\JugendSpracheZählerUI.OutputDataInSpecificFormat.resources

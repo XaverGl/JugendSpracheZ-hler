@@ -32,6 +32,7 @@
             CloseSettingsWindow_Button = new Button();
             LocalPath_Label = new Label();
             LocaltPathEntry_TextBox = new TextBox();
+            OutputData_Button = new Button();
             SuspendLayout();
             // 
             // SettingsText_Label
@@ -74,12 +75,23 @@
             LocaltPathEntry_TextBox.Size = new Size(100, 23);
             LocaltPathEntry_TextBox.TabIndex = 6;
             // 
+            // OutputData_Button
+            // 
+            OutputData_Button.Location = new Point(149, 118);
+            OutputData_Button.Name = "OutputData_Button";
+            OutputData_Button.Size = new Size(100, 23);
+            OutputData_Button.TabIndex = 7;
+            OutputData_Button.Text = "Output Data";
+            OutputData_Button.UseVisualStyleBackColor = true;
+            OutputData_Button.Click += OutputData_Button_Click;
+            // 
             // SettingsWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(64, 64, 64);
             ClientSize = new Size(515, 273);
+            Controls.Add(OutputData_Button);
             Controls.Add(LocaltPathEntry_TextBox);
             Controls.Add(LocalPath_Label);
             Controls.Add(CloseSettingsWindow_Button);
@@ -98,5 +110,6 @@
         private Button CloseSettingsWindow_Button;
         private Label LocalPath_Label;
         private TextBox LocaltPathEntry_TextBox;
+        private Button OutputData_Button;
     }
 }

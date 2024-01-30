@@ -13,7 +13,7 @@ namespace JugendSpracheAPI.Controllers
         }
 
         [HttpGet("download-Week-Report")]
-        public IActionResult DownloadWeeklyFile(DateTime startOfWeek, DateTime endOfWeek)
+        public IActionResult DownloadWeeklyFile(string startOfWeek, string endOfWeek)
         {
             throw new NotImplementedException();
         }

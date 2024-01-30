@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JugendSpracheZählerUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c36a57a4b90a1916ff3f51b1e4318ac0191bd726")]
 [assembly: System.Reflection.AssemblyProductAttribute("JugendSpracheZählerUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JugendSpracheZählerUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
