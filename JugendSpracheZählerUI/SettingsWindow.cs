@@ -2,6 +2,7 @@
 {
     public partial class SettingsWindow : Form
     {
+        public string FilePath {  get; private set; }
         public SettingsWindow()
         {
             InitializeComponent();

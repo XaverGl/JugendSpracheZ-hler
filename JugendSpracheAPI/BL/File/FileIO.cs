@@ -1,12 +1,13 @@
 ﻿using System.Globalization;
 using System.Text;
 using static JugendSpracheAPI.BL.Constants;
+using JugendSpracheAPI.Interfaces;
 
 namespace JugendSpracheAPI.BL.File
 {
-    public class FileIO
+    public class FileIO : IFileIO
     {
-        public void Write(string word, string fileName, bool dateShouldBeAppended)
+        public string Write(string word, string fileName, bool dateShouldBeAppended)
         {
             try
             {
@@ -14,14 +15,16 @@ namespace JugendSpracheAPI.BL.File
                 {
                     sw.WriteLine($"{DateTime.Now.ToString(DateTimeFormat)};{word}");
                 }
+                return string.Empty;
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                return ex.Message;
             }
         }
 
-        static SortedDictionary<DateTime, string> Read(string path)
+        public SortedDictionary<DateTime, string> Read(string path)
         {
             var allLines = new SortedDictionary<DateTime, string>();
 
